@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "./Header";
 
 export default function Hero(){
     return (
@@ -10,7 +9,7 @@ export default function Hero(){
             <h1 className="font-semibold text-5xl">Ending <span className="text-wine">Period Poverty </span>
                 <br/> Enabling <span className="text-pink">Period Dignity</span>
             </h1>
-            <p className="text-gray-500 font-medium ">We provide menstrual products and education to ensure every girl can live with confidence and dignity."</p>
+            <p className="text-gray-500 font-medium ">We provide menstrual products and education to ensure every girl can live with confidence and dignity.</p>
         </div>
         <div className="md:w-[50%]">
             <Image 

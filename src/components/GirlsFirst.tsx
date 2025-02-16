@@ -6,7 +6,8 @@ export default function GirlsFirst(){
                     Girls First
                 </div>
                 <h1>Girls Child Need all the helppp!!</h1>
-                <h2>At Tarf's Foundation our Goal is ensure that every girl child has the support they need</h2>
+                <h2>At Tarf`&apos;`s Foundation our Goal is ensure that 
+                    every girl child has the support they need</h2>
             </div>
             <div className="">
 

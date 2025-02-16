@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Button from "./Button";
 import Logo from "./Logo";
-import VolunteerBtn from "./VolunteerBtn";
 import { navItems } from "@/constants";
 
 export default function Header(){
