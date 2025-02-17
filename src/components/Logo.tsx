@@ -1,9 +1,12 @@
 import { logo } from "@/assets";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Logo(){
     return (
-        <div className="flex  items-center">
+        <Link
+         href='/'
+         className="flex  items-center">
             <Image 
             src={logo} 
             width={120}
@@ -13,5 +16,5 @@ export default function Logo(){
             />
             <h1 className="text-pink text-xl font-bold -ml-5">Tarfs Foundation</h1>
 
-        </div>
+        </Link>
 )}
