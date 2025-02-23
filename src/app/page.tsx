@@ -9,6 +9,7 @@ export default function Home(){
     <main className="flex flex-col gap-10">
       <Hero />
       <OutReaches />
+      
       <GirlsFirst />
       <TestimonialsComponent />
       <Events />
