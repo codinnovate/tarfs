@@ -2,59 +2,51 @@ import Button from "./Button"
 
 export default function Footer(){
     return (
-        <footer className="bg-black text-slate-400  p-2 md:p-10">
-            <section className="max-w-6xl mx-auto flex flex-col md:grid grid-cols-3 justify-between gap-5">
-              <ul>
-                <h1>Reach Tarfs</h1>
+        <footer className="rounded-t-[1em] bg-white text-black  p-2 md:p-10">
+            <section className="max-w-6xl pt-10 mx-auto flex flex-col md:grid grid-cols-3 justify-between gap-5">
+              <ul className="flex flex-col gap-3">
+                <h1 className="font-semibold text-base">Donate</h1>
+                <TypoGraph
+                 text='Volunteer'
+                />
+                <TypoGraph
+                 text='Send packages'
+                />
                 <TypoGraph
                  
+                 text='Help a School'
+                />
+              </ul>
+              <ul className="flex flex-col gap-3">
+              <h1 className="font-semibold text-base">Foundation</h1>
+              <TypoGraph
                  text='+32461438932'
                 />
                 <TypoGraph
                  
-                 text='help@tarf.org'
+                 text='About us'
                 />
                 <TypoGraph
                  
-                 text='36, Londoner avenue, olowo lajuogbon iju ishaga'
+                 text='Join us'
                 />
               </ul>
-              <ul>
-                <h1>Reach Tarfs</h1>
-                <TypoGraph
-                 
-                 text='+32461438932'
-                />
-                <TypoGraph
-                 
-                 text='help@tarf.org'
-                />
-                <TypoGraph
-                 
-                 text='36, Londoner avenue, olowo lajuogbon iju ishaga'
-                />
-              </ul>
-               <ul>
-                <h1>Support</h1>
-                <p>wanna support us a tarf, be part of people will make things happens by helping the coming generation of female leaders</p>
+               <ul className="gap-5 flex flex-col">
                  <Button
                  title='Donate' 
                  />
                </ul>
             </section>
-            <p className="text-center">
-            tarfs foundation &copy; 2022 - 2024
+            <p className="text-center mt-5">
+            Tarfs Foundation &copy; 2022 - 2024
             </p>
         </footer>
     )
 }
 
 
-function TypoGraph({icon, text}:{icon:React.ReactElement, text:string}){
+function TypoGraph({text}:{text:string}){
     return (
-        <div className="flex items-center gap-2">
-            {icon}
             <p>{text}</p>
-        </div>
     )
 }

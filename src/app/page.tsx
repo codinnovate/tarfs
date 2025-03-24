@@ -6,14 +6,14 @@ import TestimonialsComponent from "@/components/Testimonials";
 
 export default function Home(){
   return (
-    <main className="flex flex-col gap-10">
+    <main className="flex flex-col gap-10 overflow-x-hidden">
       <Hero />
-      <OutReaches />
       
       <GirlsFirst />
 
       
       <TestimonialsComponent />
+      <OutReaches />
       <Events />
       
 

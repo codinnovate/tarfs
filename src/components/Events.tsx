@@ -1,7 +1,7 @@
 export default function Events(){
     return (
-        <div>
-            <h1>Events</h1>
+        <div className="max-w-6xl mx-auto p-3">
+            <h1 className="text-3xl">Events</h1>
             {/* Event list goes here */}
         </div>
     )
