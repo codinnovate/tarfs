@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='flex flex-col  bg-[#fff7ec]'>
+      <body className='flex flex-col  text-gray-800'>
       <Header />
         {children}
       <Footer />

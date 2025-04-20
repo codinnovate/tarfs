@@ -1,12 +1,8 @@
-"use client";
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
-import Logo from './Logo';
-import Link from 'next/link';
+import { Menu, X, Heart } from 'lucide-react';
 
-const Header: React.FC = () => {
+const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -35,7 +31,6 @@ const Header: React.FC = () => {
     { name: 'About', href: '#about' },
     { name: 'Objectives', href: '#objectives' },
     { name: 'Programs', href: '#programs' },
-    { name: 'Faqs', href: '#faq' },
     { name: 'Get Involved', href: '#get-involved' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -47,12 +42,18 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Logo />
+        <a
+          href="#"
+          className="flex items-center space-x-2 text-tarf-pink font-display font-bold text-xl"
+        >
+          <Heart className="h-6 w-6 fill-tarf-pink stroke-tarf-pink" />
+          <span>TARFs Foundation</span>
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item) => (
-            <Link
+            <a
               key={item.name}
               href={item.href}
               className={`font-medium transition duration-300 ${
@@ -62,7 +63,7 @@ const Header: React.FC = () => {
               }`}
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </div>
 
@@ -106,4 +107,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Navbar;
