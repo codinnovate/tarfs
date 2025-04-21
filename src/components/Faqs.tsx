@@ -26,7 +26,7 @@ const FAQ: React.FC = () => {
         "The best product depends on individual needs and preferences. Common menstrual products include:",
         "• Sanitary pads: Ideal for those who want a simple option.",
         "• Tampons: Used internally and can be more discreet.",
-        "• Menstrual cups: Reusable, eco-friendly, and hold more fluid than pads or tampons."
+        "• Menstrual cups: Eco-friendly, and hold more fluid than pads or tampons."
       ]
     },
     {

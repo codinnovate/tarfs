@@ -14,7 +14,7 @@ const Programs: React.FC = () => {
     },
     {
       title: "Sanitary Pad Distribution",
-      description: "Regular distribution of reusable sanitary products to girls from low-income families, ensuring they don't miss school due to their periods.",
+      description: "Regular distribution of  sanitary products to girls from low-income families, ensuring they don't miss school due to their periods.",
       image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     },
     {
