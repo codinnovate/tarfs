@@ -14,7 +14,7 @@ const Objectives: React.FC = () => {
     {
       icon: <Heart className="w-10 h-10 text-tarf-pink" />,
       title: "Menstrual Hygiene Resources",
-      description: "Distribute reusable sanitary products and hygiene kits to girls from underprivileged backgrounds.",
+      description: "Distribute  sanitary products and hygiene kits to girls from underprivileged backgrounds.",
     },
     {
       icon: <Users className="w-10 h-10 text-tarf-pink" />,
