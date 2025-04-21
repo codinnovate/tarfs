@@ -10,7 +10,9 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1607748851687-ba9a10438621?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+        width={1000}
+        height='100'
+          src="/bg.jpg"
           alt="Diverse teenage girls learning together"
           className="object-cover w-full h-full"
         />

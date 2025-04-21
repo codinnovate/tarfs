@@ -7,12 +7,12 @@ import Image from 'next/image';
 
 const Testimonials: React.FC = () => {
   const testimonials = [
-    {
-      quote: "The menstrual hygiene workshops changed my life. I no longer feel ashamed during my period, and the reusable pads have saved me so much money.",
-      name: "Sophia J.",
-      role: "Program Beneficiary, 16",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    },
+    // {
+    //   quote: "The menstrual hygiene workshops changed my life. I no longer feel ashamed during my period, and the reusable pads have saved me so much money.",
+    //   name: "Sophia J.",
+    //   role: "Program Beneficiary, 16",
+    //   image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    // },
     {
       quote: "Before joining TARFs Foundation's programs, I used to miss school during my period. Now I have the products and confidence to attend every day.",
       name: "Michelle K.",
@@ -86,6 +86,8 @@ const Testimonials: React.FC = () => {
               <div className="flex justify-center mb-8">
                 <div className="relative">
                   <Image 
+                    width={96}
+                    height={96}
                     src={testimonials[current].image} 
                     alt={testimonials[current].name}
                     className="w-24 h-24 rounded-full object-cover border-4 border-tarf-pink-lighter"

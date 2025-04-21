@@ -8,6 +8,7 @@ import GetInvolved from '@/components/GetInvolved';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import FAQ from "@/components/Faqs";
+import Founders from '@/components/Founders';
 
 
 export default function Home(){
@@ -24,6 +25,7 @@ export default function Home(){
        */}
         <Hero />
         <About />
+        <Founders />
         <Objectives />
         <Programs />
         <GetInvolved />

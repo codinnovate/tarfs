@@ -73,6 +73,8 @@ const Programs: React.FC = () => {
                 <Image 
                   src={programs[current].image} 
                   alt={programs[current].title}
+                  width={400}
+                  height={500}
                   className="w-full h-full object-cover hover:scale-110 transition duration-700"
                 />
               </div>

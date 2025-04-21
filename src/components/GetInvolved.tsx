@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, HandHelping, Handshake } from 'lucide-react';
+import Link from 'next/link';
 
 const GetInvolved: React.FC = () => {
   const options = [
@@ -11,17 +12,20 @@ const GetInvolved: React.FC = () => {
       title: "Donate",
       description: "Your financial support helps us provide sanitary products, educational materials, and run our empowerment programs.",
       buttonText: "Make a Donation",
+      link:'/donate',
       backgroundColor: "bg-gradient-to-br from-tarf-pink to-tarf-pink-dark",
     },
     {
       icon: <HandHelping className="w-8 h-8" />,
       title: "Volunteer",
       description: "Share your time and skills to help with workshops, events, and administrative tasks.",
+      link:'/volunteer',
       buttonText: "Join as Volunteer",
       backgroundColor: "bg-gradient-to-br from-purple-500 to-violet-600",
     },
     {
       icon: <Handshake className="w-8 h-8" />,
+      link:'/partners',
       title: "Partner With Us",
       description: "Organizations and businesses can collaborate with us on projects and sponsorships.",
       buttonText: "Become a Partner",
@@ -90,6 +94,7 @@ const GetInvolved: React.FC = () => {
                 <p className="mb-6 text-white/90">
                   {option.description}
                 </p>
+                <Link href={option.link}>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -98,6 +103,7 @@ const GetInvolved: React.FC = () => {
                 >
                   {option.buttonText}
                 </motion.button>
+                  </Link>
               </div>
             </motion.div>
           ))}

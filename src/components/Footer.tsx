@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Heart, Mail, Phone, MapPin, Instagram, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -17,13 +17,13 @@ const Footer: React.FC = () => {
               spiritual growth, and holistic support programs.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-white/70 transition" aria-label="Facebook">
+              {/* <a href="#" className="hover:text-white/70 transition" aria-label="Facebook">
                 <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-white/70 transition" aria-label="Twitter">
+              </a> */}
+              <a href="https://www.tiktok.com/@tarfsfoundation?_t=ZM-8viM1aAA6r7&_r=1" className="hover:text-white/70 transition" aria-label="Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-white/70 transition" aria-label="Instagram">
+              <a href="https://www.instagram.com/tarfsfoundation/profilecard/?igsh=a3Fwdjg4YmJ6b2lj" className="hover:text-white/70 transition" aria-label="Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -57,15 +57,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 mt-1 flex-shrink-0" />
-                <span>123 Empowerment Street, Los Angeles, CA 90001</span>
+                <span>1, Tunji Adegabi Crescent, off Iju ishaga Lagos..</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 flex-shrink-0" />
-                <span>+1 (234) 567-8901</span>
+                <span>+234 808 6491 522</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 flex-shrink-0" />
-                <span>info@tarfsfoundation.org</span>
+                <span>tarfsfoundation@gmail.com</span>
               </li>
             </ul>
           </div>
