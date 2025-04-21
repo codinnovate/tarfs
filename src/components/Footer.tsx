@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Mail, Phone, MapPin, Instagram, Twitter } from 'lucide-react';
+import { Heart, Mail, Phone, MapPin, Instagram, Twitter, Facebook } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -17,13 +17,13 @@ const Footer: React.FC = () => {
               spiritual growth, and holistic support programs.
             </p>
             <div className="flex space-x-4">
-              {/* <a href="#" className="hover:text-white/70 transition" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/18ZkBjMqux/?mibextid=wwXIfr" className="hover:text-white/70 transition" aria-label="Facebook">
                 <Facebook className="h-5 w-5" />
-              </a> */}
+              </a>
               <a href="https://www.tiktok.com/@tarfsfoundation?_t=ZM-8viM1aAA6r7&_r=1" className="hover:text-white/70 transition" aria-label="Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="https://www.instagram.com/tarfsfoundation/profilecard/?igsh=a3Fwdjg4YmJ6b2lj" className="hover:text-white/70 transition" aria-label="Instagram">
+              <a href="https://www.instagram.com/tarfsfoundation" className="hover:text-white/70 transition" aria-label="Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
