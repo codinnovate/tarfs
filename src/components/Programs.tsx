@@ -10,17 +10,17 @@ const Programs: React.FC = () => {
     {
       title: "Menstrual Hygiene Workshops",
       description: "Educational workshops conducted in schools and community centers, focusing on proper menstrual hygiene practices, reproductive health, and dispelling myths.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "/tarfs2.jpg",
     },
     {
       title: "Sanitary Pad Distribution",
       description: "Regular distribution of  sanitary products to girls from low-income families, ensuring they don't miss school due to their periods.",
-      image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "/tarfs1.jpg",
     },
     {
       title: "Mentorship Program",
       description: "Connecting girls with successful female mentors who guide them on personal development, career options, and life skills.",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      image: "/tarfs3.jpg",
     },
     {
       title: "Spiritual Retreats",

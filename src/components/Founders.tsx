@@ -9,7 +9,6 @@ const Founders: React.FC = () => {
   return (
     <section id="founders" className="py-20 bg-white relative overflow-hidden">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-tarf-pink-lightest opacity-50 -skew-x-12 transform origin-top-right" />
-      
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -94,6 +93,28 @@ Driven by her faith, compassion for others, and commitment to uplifting the live
           </motion.div>
         </div>
       </div>
+      <div>
+
+      </div>
+      <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-3xl md:text-4xl font-display font-bold mt-10 text-gray-800 my-4">
+            Our <span className="text-tarf-pink">Achievements</span>
+          </h2>
+          <div className='max-w-3xl mx-auto flex justify-center '>
+          <Image
+           src='/tarfs.jpg'
+           width={500}
+           height={500}
+           alt='tarfs made money'
+           />
+           </div>
+        </motion.div>
     </section>
   );
 };
