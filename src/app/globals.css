@@ -20,3 +20,13 @@ h1, span, .font-display{
   font-family: "Playwrite ZA Guides", serif;
 
 }
+
+/* Simple marquee animation for announcement bar */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  animation: marquee 20s linear infinite;
+}
