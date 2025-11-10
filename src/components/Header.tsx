@@ -32,9 +32,10 @@ const Header: React.FC = () => {
 
   const navItems = [
     { name: 'Home', href: '#' },
+    { name: 'Our Books', href: '/books' },
     { name: 'About', href: '#about' },
     { name: 'Objectives', href: '#objectives' },
-    { name: 'Programs', href: '#programs' },
+    // { name: 'Programs', href: '#programs' },
     { name: 'Faqs', href: '#faq' },
     { name: 'Get Involved', href: '#get-involved' },
     { name: 'Contact', href: '#contact' },
