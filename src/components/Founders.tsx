@@ -7,8 +7,10 @@ import Image from 'next/image';
 
 const Founders: React.FC = () => {
   return (
-    <section id="founders" className="py-20 bg-white relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-tarf-pink-lightest opacity-50 -skew-x-12 transform origin-top-right" />
+    <section 
+    id="founders" 
+    className="mt-[150px] py-20 bg-white relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-1/2 h-full bg-tarf-pink-lightest opacity-50 -skew-x-12 transform origin-top-right" />
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,14 +82,15 @@ Driven by her faith, compassion for others, and commitment to uplifting the live
               </p>
 
               <div className="pt-6">
-                <motion.button
+                <motion.a
+                  href="/foundation"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-tarf-pink text-white font-bold py-3 px-8 rounded-full shadow-md 
+                  className="inline-block bg-tarf-pink text-white font-bold py-3 px-8 rounded-full shadow-md 
                   hover:bg-tarf-pink-dark transition duration-300"
                 >
                   Read Full Story
-                </motion.button>
+                </motion.a>
               </div>
             </div>
           </motion.div>
